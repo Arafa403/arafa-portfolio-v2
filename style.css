@@ -1313,3 +1313,45 @@ footer .brand {
     background: none;
   }
 }
+
+
+
+
+/* Hero eyebrow badge */
+.hero-content .eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 24px;
+  padding: 9px 15px;
+  color: #38d9ff;
+  background: #16224a;
+  border: 1px solid #243a7a;
+  border-radius: 999px;
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.hero-content .status-dot {
+  display: inline-block;
+  flex: 0 0 8px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #2de2a6;
+  box-shadow: 0 0 10px #2de2a680;
+}
+
+@media (max-width: 650px) {
+  .hero-content .eyebrow {
+    font-size: 9px;
+    letter-spacing: .5px;
+    gap: 8px;
+    padding: 8px 11px;
+  }
+}
